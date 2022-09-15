@@ -10,6 +10,7 @@ div:nth-of-type(2){
 }
 div:nth-of-type(3){
     background-color: gold;
+    height: 70px;
 }
 div:nth-of-type(4){
     background-color: darkgoldenrod;
@@ -31,4 +32,7 @@ div:nth-of-type(4) > h3{
 }
 div:nth-of-type(5) > h3{
     color: purple;
+}
+div:nth-child(odd) h3{
+    font-style: italic
 }
