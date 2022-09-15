@@ -1,0 +1,6 @@
+h1, p{
+    text-align: center;
+}
+li:hover, li:active{
+    background-color: rgb(117, 113, 113);
+    color: rgb(223, 224, 226);
