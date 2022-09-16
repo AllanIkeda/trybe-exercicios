@@ -16,3 +16,9 @@ h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
     font-size: 40px;
     border: 1px black solid;
 }
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bolder;
+}
