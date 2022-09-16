@@ -28,3 +28,22 @@ ul.maiores-linguagens li:nth-child(-n + 3){
 .rosa{
     background-color: pink;
 }
+
+#links-aliados li a:hover{
+    font-weight: bolder;
+}
+#links-aliados li a[href*="stackoverflow"]{
+    color: orange;
+}
+#links-aliados li a[href*="w3schools"]{
+    color: green;
+}
+#links-aliados li a[href*="mozilla"]{
+    color: black;
+}
+#links-aliados li a[href*="devdocs"]{
+    color: yellow;
+}
+#links-aliados li a[href*="trybe"]{
+    color: rgb(0, 128, 32);
+}
