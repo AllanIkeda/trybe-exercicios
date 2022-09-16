@@ -9,10 +9,10 @@ ol.ordered-top5 li:nth-child(even){
     color: green;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2{
     color: red;
 }
-h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{
+h1 em, h2 em{
     font-size: 40px;
     border: 1px black solid;
 }
@@ -21,4 +21,10 @@ li{
 }
 li em{
     font-weight: bolder;
+}
+ul.maiores-linguagens li:nth-child(-n + 3){
+    color: blue;
+}
+.rosa{
+    background-color: pink;
 }
