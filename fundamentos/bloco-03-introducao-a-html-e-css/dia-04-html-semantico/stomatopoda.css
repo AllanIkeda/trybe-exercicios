@@ -1,20 +1,24 @@
 header{
     text-align: center;
 }
+
 img{
-    vertical-align: top;
+   
     width: 100%;   
     display: block;
     max-width: 100%; 
     
 }
+
 h6{
     text-align: center;
     margin-top: auto;
 }
+
 header h2{
     text-align: center;
 }
+
 body{
     margin: 16px;
     font-size: 18px;
@@ -22,6 +26,7 @@ body{
     font-family: monospace;
     
 }
+
 ul{
     text-align: left;
 }
@@ -30,9 +35,11 @@ nav ul li{
     display: inline-block;
     margin-right: 10%;
 }
+
 a{
     text-decoration: none;
 }
+
 article h3, h4{
     text-align: center;
 }
@@ -52,6 +59,7 @@ article h3, h4{
   table {
     width: 100%;
   }
+
   aside, footer, nav, main {
     border-top: 2px rgb(0, 0, 0) solid;
   }
