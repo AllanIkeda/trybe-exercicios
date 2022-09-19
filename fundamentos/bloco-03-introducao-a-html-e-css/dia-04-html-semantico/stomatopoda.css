@@ -55,4 +55,11 @@ nav ul li {
     text-decoration: none;
   }
   
- 
+  table, th, td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  
+  table {
+    width: 100%;
+  }
