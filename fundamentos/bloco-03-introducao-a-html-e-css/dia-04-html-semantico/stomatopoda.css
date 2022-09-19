@@ -44,3 +44,15 @@ aside{
     table-layout: auto;
     padding-left: 42%;
 }
+nav ul li {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  nav ul li a {
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+ 
