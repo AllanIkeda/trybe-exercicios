@@ -1,0 +1,46 @@
+header{
+    text-align: center;
+}
+img{
+    vertical-align: top;
+    width: 100%;    
+    
+}
+h6{
+    text-align: center;
+    margin-top: auto;
+}
+header h2{
+    text-align: center;
+}
+body{
+    margin: 16px;
+}
+ul{
+    text-align: left;
+}
+nav ul{
+    padding-left: 0%;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+}
+article h3, h4{
+    text-align: center;
+}
+aside{
+    padding: 10px;
+    border: red 2px solid;
+    height: 250px;
+    width: 35%;
+}
+.tabela{
+    text-align: center;
+    display: inline-block;
+    table-layout: auto;
+    padding-left: 42%;
+}
