@@ -21,6 +21,9 @@ switch (pecaDeXadrez.toLowerCase()) {
     console.log(pecaDeXadrez + " anda Apenas uma casa para frente, ou duas casas caso seja a primeira vez que o mexe.");
     break;
 
+  case 'rei':
+    console.log(pecaDeXadrez +'anda em qualquer direção, porém apenas 1 casa')
+
   default:
     console.log('Erro, peça inválida!');
     
