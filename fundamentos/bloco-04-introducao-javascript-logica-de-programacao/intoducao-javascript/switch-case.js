@@ -1,18 +1,27 @@
-let status = 'sad';
+const pecaDeXadrez = 'Peão';
 
-switch (status) {
-  case'aprovada':
-    console.log('Parabéns, você foi aprovada(o)') ;
+switch (pecaDeXadrez.toLowerCase()) {
+  case 'bispo':
+    console.log(pecaDeXadrez + ' anda na Diagonal');
     break;
 
-  case'lista':
-    console.log('Você está na nossa lista de espera');
+    case 'rainha':
+    console.log(pecaDeXadrez + ' anda naDiagonal, horizontal e vertical.');
     break;
 
-  case'reprovada':
-  console.log('Você foi reprovada');
-  break;
+  case 'cavalo':
+    console.log(pecaDeXadrez + ' anda em "L" pode pular sobre as peças.');
+    break;
+
+  case 'torre':
+    console.log(pecaDeXadrez + ' anda na Horizontal e vertical.');
+    break;
+
+  case 'peão':
+    console.log(pecaDeXadrez + " anda Apenas uma casa para frente, ou duas casas caso seja a primeira vez que o mexe.");
+    break;
 
   default:
-    console.log('informação incorreta');
+    console.log('Erro, peça inválida!');
+    
 }
