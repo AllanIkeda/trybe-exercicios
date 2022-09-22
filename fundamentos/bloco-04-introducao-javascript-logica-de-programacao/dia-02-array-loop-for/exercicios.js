@@ -78,6 +78,12 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 let contagem = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
 
+// for ( let n of contagem ) {
+//   console.log(n);
+// }
+
+// exercicio9
+
 for ( let n of contagem ) {
-  console.log(n);
+  console.log('a divisão de ' + n + ' por 2 é ' + n / 2 );
 }
