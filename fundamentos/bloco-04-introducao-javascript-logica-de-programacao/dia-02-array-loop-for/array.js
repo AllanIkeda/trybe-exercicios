@@ -13,10 +13,8 @@
 // console.log(indexOfPortfolio);
 
 // exercicio3
-let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
+// let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
 
-menu.push('Contato');
+// menu.push('Contato');
 
-console.log(menu);
-
-// exercicio4
+// console.log(menu);
