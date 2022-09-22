@@ -39,10 +39,24 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }
 
 // exercicio5
-let maior = 0;
+// let maior = 0;
 
+// for (let n of numbers) {
+//   if ( n > maior ) {
+//     maior = n;
+//   }
+// }console.log(maior);
+
+// exercicio6
+let cont = 0;
+let resp = '';
 for (let n of numbers) {
-  if ( n > maior ) {
-    maior = n;
+  if (n % 2 == 1) {
+    cont += 1;
+  resp = 'Possui ' + cont + ' numeros Impares'
+  }else {
+    resp = 'não possui numeros impares'
   }
-}console.log(maior);
+}
+console.log(resp)
+  
