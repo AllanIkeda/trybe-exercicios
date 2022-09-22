@@ -48,15 +48,28 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // }console.log(maior);
 
 // exercicio6
-let cont = 0;
-let resp = '';
-for (let n of numbers) {
-  if (n % 2 == 1) {
-    cont += 1;
-  resp = 'Possui ' + cont + ' numeros Impares'
-  }else {
-    resp = 'não possui numeros impares'
+
+// let cont = 0;
+// let resp = '';
+// for (let n of numbers) {
+//   if (n % 2 == 1) {
+//     cont += 1;
+//   resp = 'Possui ' + cont + ' numeros Impares'
+//   }else {
+//     resp = 'não possui numeros impares'
+//   }
+// }
+// console.log(resp)
+//
+// exercicio7
+
+let menor = 0;
+
+for ( let n of numbers ) {
+  if ( menor == 0 ) {
+    menor = n;
+  }else if ( menor > n ) {
+    menor = n;
   }
 }
-console.log(resp)
-  
+console.log('o menor numero é o ' + menor);
