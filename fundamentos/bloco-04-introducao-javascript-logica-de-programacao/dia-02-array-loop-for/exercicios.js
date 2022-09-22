@@ -15,11 +15,28 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // console.log(soma);
 
 // exercicio3
+// let div = 0
+// let soma = 0
+// for (let i = 0; i < numbers.length; i += 1) {
+//   soma += numbers[i]
+//   div += 1
+// }
+// console.log(soma / div);
+
+// exercicio4
+
 let div = 0
 let soma = 0
-for (let i = 0; i < numbers.length; i += 1) {
+
+for (let i = 0; i < numbers.length; i += 1) { 
   soma += numbers[i]
   div += 1
 }
-console.log(soma / div);
+if  ((soma / div) > 20) {
+  console.log('Valor maior que 20')
+}else{
+  console.log("valor menor que 20");
+}
+
+// exercicio5
 
