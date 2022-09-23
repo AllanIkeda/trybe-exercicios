@@ -43,4 +43,24 @@
 
 // console.log(maior);
 // console.log(menor);
+let int = []
+cont = 0
+
+for (let index = 2; index <= 50 ; index += 1) {
+  let primo = true;
+  for (let div = 2; div < index; div += 1) {
+   if ( index % div === 0 ) {
+    primo = false;
+        
+  }
+}
+  if (primo) {
+  cont = index;
+  int.push(index); 
+  }
+}
+
+console.log(int);
+console.log(cont);
+
 
