@@ -76,11 +76,29 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
 // exercicio8
 
-let contagem = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
+let contagem = []
 
 // for ( let n of contagem ) {
 //   console.log(n);
-// }
+// // }
+// contagem.forEach(n => {
+//   if (contagem.length !== 26){ 
+//   contagem.push(n);
+//   }
+// });
+
+let cont = 0
+
+for ( i = 0; i < 25; i += 1  ) {
+  if (contagem[i] !== 25 )
+    cont += 1;
+    contagem.push(cont);
+  
+}
+for (let index = 0; index < contagem.length + 1; index += 1) {
+  console.log(index);    
+}
+
 
 // exercicio9
 
