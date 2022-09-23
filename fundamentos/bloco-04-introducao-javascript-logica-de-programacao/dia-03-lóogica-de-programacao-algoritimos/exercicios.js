@@ -9,3 +9,17 @@
 // }
 // console.log(resultado);
 
+
+// exercicio2
+
+let word = 'tryber';
+let array = word.split('');
+let arrayReversed = [];
+// let arrayReversed = array.reverse();
+for (let index = 0; index < array.length; index += 1) {
+    arrayReversed.unshift (array[index]);
+}
+
+// console.log(arrayReversed);
+console.log(arrayReversed.join(''));
+console.log(arrayReversed);
