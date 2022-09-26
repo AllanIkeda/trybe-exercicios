@@ -178,3 +178,47 @@
 // }
 // console.log(maior(305, 305));
 
+// function maior(primeiroNum=0, segundoNum=0, terceiroNum=0) {
+//   if (primeiroNum > segundoNum && primeiroNum > terceiroNum) {
+//     return primeiroNum +' é maior que '+ segundoNum + ' e maior que ' + terceiroNum;
+//   }else if (segundoNum > primeiroNum && segundoNum > terceiroNum) { 
+//     return segundoNum +' é maior que '+ primeiroNum +' e maior que ' + terceiroNum;
+//   }else { 
+//     return terceiroNum +' é maior que '+ primeiroNum +' e maior que '+ segundoNum;
+//   }
+// }
+
+// console.log(maior(50, 32, 34));
+
+// function num(n=0) {
+//   if (n > 0){
+//   return 'Positivo';
+//   }else if (n < 0){
+//     return 'Negativo';
+//   }else if (n === 0) {
+//     return 'zero';
+//   }else {
+//   return 'não é um numero valido';
+//   }
+// }
+
+  
+
+// console.log(num('h'));
+
+// function triangulo (a, b, c){
+//   let soma = a + b + c;
+//   let posit = a > 0 && b > 0 && c > 0;
+//   if (posit) {
+//     if (soma === 180) {
+//       return true;
+//     }else {
+//       return false;
+//     }
+//   }else {
+//     return 'Angulo inválido';
+//   }
+// }
+
+// console.log(triangulo(45, 45, 90));
+
