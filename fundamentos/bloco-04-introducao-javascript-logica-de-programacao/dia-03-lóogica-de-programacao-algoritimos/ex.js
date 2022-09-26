@@ -39,3 +39,29 @@
 // });
 // console.log(soma);
 
+let items = ['batata', 'x-tudo', 'refri', 'mac', 'nuggets', 'suco' ];
+let prices = [12, 33, 5, 9, 15];
+
+// for (let i = 0; i < items.length; i += 1) {
+//  if (prices[i] == undefined) {
+//     console.log(items[i] + ' = R$ não esta definido');
+//   }else {
+//     console.log(items[i] + ' = R$' + prices[i] );
+//   }
+// }
+
+let money = 20;
+let lista = [];
+let maior = 0;
+for (let index = 0; index < prices.length; index += 1) {
+  if (prices[index] <= money) {
+    lista.push(items[index]);
+  };
+  if (prices[index] <= money && prices[index] > maior) { {
+    maior = prices[index];
+  };
+  };
+};
+console.log(maior);
+console.log(lista);
+
