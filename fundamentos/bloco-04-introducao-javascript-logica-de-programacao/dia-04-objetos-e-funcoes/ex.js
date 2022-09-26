@@ -144,3 +144,37 @@
 // for( let key in car ) {
 //   console.log(key + ': ' + car[key]);
 // }
+
+// ex3 funções
+
+// function soma(a, b) {
+//   return a + b;
+// }
+
+// function sub(a, b) {
+//   return a - b;
+// }
+
+// function mult(a, b) {
+//   return a * b;
+// }
+
+// function div(a, b) {
+//   return a / b;
+// }
+
+// function mod(a, b) {
+//   return a % b;
+// }
+
+// function maior(primeiroNum, segundoNum) {
+//   if (primeiroNum > segundoNum) {
+//     return primeiroNum + ' é maior que ' + segundoNum;
+//   }else if (primeiroNum < segundoNum) {
+//     return segundoNum + ' é maior que ' + primeiroNum;
+//   }else {
+//     return primeiroNum + ' é igual a ' + segundoNum;
+//   }
+// }
+// console.log(maior(305, 305));
+
