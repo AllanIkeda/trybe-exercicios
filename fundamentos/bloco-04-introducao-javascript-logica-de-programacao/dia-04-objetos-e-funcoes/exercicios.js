@@ -99,9 +99,9 @@
 
 // function maior(palavras) {
 //   let maiorPalavra = palavras[0];
-//   for (let indice in palavras) {
-//     if (maiorPalavra.lenght < palavras[indice].lenght) {
-//       maiorPalavra = palavras[indice];
+//   for (let numrept in palavras) {
+//     if (maiorPalavra.lenght < palavras[numrept].lenght) {
+//       maiorPalavra = palavras[numrept];
       
 //     }
 //   }
@@ -110,19 +110,35 @@
 
 // console.log(maior(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
-function numRepetido(numeros) {
+// function numRepetido(numeros) {
  
-  let indice = 0;
+//   let numrept = 0;
 
-  for (let i = 0; i < numeros.length; i += 1) {
-    for (let j = 0; j < numeros.length; j += 1) {
-      if (numeros[i] === numeros[j]) {
+//   for (let i = 0; i < numeros.length; i += 1) {
+//     for (let j = 0; j < numeros.length; j += 1) {
+//       if (numeros[i] === numeros[j]) {
         
-        indice = numeros[i];
-      }
+//         numrept = numeros[i];
+//       }
+//     }
+//   }
+//   return numrept;
+// }
+
+//   console.log(numRepetido([2, 3, 7, 5, 8, 5, 3, 8, 6, 5, 8, 1, 5]));
+
+function sumBack(num){
+  let result = num;
+  let cont = num;
+  for (let i = 0; i <= num; i += 1) {
+    cont -= 1
+    if (cont > 0){
+      result = result + cont;
+      
     }
   }
-  return indice;
+  return result;
 }
 
-  console.log(numRepetido([2, 3, 7, 5, 8, 5, 3, 8, 6, 5, 8, 1, 5]));
+
+console.log(sumBack(18));
