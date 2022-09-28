@@ -33,3 +33,16 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - Projeto - Playground Functions
+- 
+- ##### Bloco 5:
+- [X] 5.1 - JavaScript - DOM e seletores
+- [ ] 5.2 - JavaScript - Trabalhando com elementos
+- [ ] 5.3 - JavaScript - Eventos
+- [ ] 5.4 - JavaScript - Web Storage
+- [ ] 5.5 - Fundamentos - JavaScript - Projetos
+- [ ] 5.5 - Projeto - Arte com Pixels
+- [ ] 5.6 - Projeto - Lista de tarefas
+- [ ] 5.7 - (Bônus) Projeto - Meme Generator
+- [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
+- [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
+
