@@ -24,9 +24,14 @@ function upcase() {
   let paragrafoUp = document.getElementsByTagName('p')[0];
   paragrafoUp.innerHTML = paragrafoUp.innerHTML.toUpperCase();
 }
-
-
 // 6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
+
+function showConsole() {
+  let array = document.getElementsByTagName('p');
+  for (let i = 0; i < array.length; i += 1) {
+    console.log(array[i].innerHTML);
+  }
+}
 //1
 mudarTexto();
 //2
@@ -37,3 +42,5 @@ bgWhite();
 h1correct();
 //5
 upcase();
+//6
+showConsole();
