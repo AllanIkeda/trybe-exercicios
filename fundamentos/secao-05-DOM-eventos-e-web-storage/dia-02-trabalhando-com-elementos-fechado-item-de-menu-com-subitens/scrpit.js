@@ -48,4 +48,4 @@ for (let i = filhos.length - 1; i >= 0; i -= 1) {
 }
 let ultimo = document.getElementById('segundoEUltimoFilhoDoFilho');
 
-ultimo.remove();
+ultimo.remove(); 
