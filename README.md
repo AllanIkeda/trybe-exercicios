@@ -7,18 +7,18 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web
 
-##### Bloco 1:
+##### Seção 1:
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
 - [X] 1.3 - Introdução - Unix & Shell
 - [X] 1.3 - Unix & Bash - Parte 1
 - [X] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2:
+##### Seção 2:
 - [X] 2.1 - Git & GitHub  - O que é e para que serve
 - [X] 2.2 - Git & GitHub - Entendendo os comandos
 - [X] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3:
+##### Seção 3:
 - [X] 3.1 - Introdução - HTML & CSS
 - [X] 3.1 - HTML & CSS - Estruturas de página
 - [X] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -26,15 +26,15 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 3.4 - HTML Semântico
 - [X] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4:
+##### Seção 4:
 - [X] 4.1 - Introdução - JavaScript
 - [X] 4.1 - JavaScript - Primeiros passos
 - [X] 4.2 - JavaScript - Array e loop For
 - [X] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - Projeto - Playground Functions
-- 
-- ##### Bloco 5:
+-
+- ##### Seção 5:
 - [X] 5.1 - JavaScript - DOM e seletores
 - [ ] 5.2 - JavaScript - Trabalhando com elementos
 - [ ] 5.3 - JavaScript - Eventos
