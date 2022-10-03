@@ -91,12 +91,26 @@ function modiTxt (){
     }
   });
 }
+function zoomIn() {
+  let dias = document.querySelector('#days');
 
+  dias.addEventListener('mouseover', function(){
+      console.log('over');
+    });
+}
 
+function zoomOut() {
+  let dias = document.querySelector('#days');
+  dias.addEventListener('mouseout', function(){
+    console.log('out');
+});
+}
 criandoBtn('Feriados', 'btn-holiday');
 criandoBtn('Sextouuu', 'btn-friday');
 criandoDay();
 bgColor();
 // let sextaDiass = [4, 11, 18, 25];
 modiTxt();
+zoomIn();
+zoomOut();
 
