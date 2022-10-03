@@ -94,15 +94,18 @@ function modiTxt (){
 function zoomIn() {
   let dias = document.querySelector('#days');
 
-  dias.addEventListener('mouseover', function(){
-      console.log('over');
-    });
+  dias.addEventListener('mouseover', function(event){
+    event.target.style.fontSize = '35px';
+    event.target.style.fontWeight = 'bold';
+  });
 }
 
 function zoomOut() {
   let dias = document.querySelector('#days');
-  dias.addEventListener('mouseout', function(){
-    console.log('out');
+
+  dias.addEventListener('mouseout', function(event){
+    event.target.style.fontSize = '20px';
+    event.target.style.fontWeight = 'unset';
 });
 }
 criandoBtn('Feriados', 'btn-holiday');
