@@ -56,5 +56,27 @@ function btnFeriado (string){
 
 }
 
+function bgColor () {
+  let feriado = document.querySelectorAll('.holiday');
+  let btn = document.querySelector('#btn-holiday');
+  let altBG = 'white';
+  let Bg = 'rgb(238,238,238)';
+
+  btn.addEventListener('click', function () {
+    for (let i = 0; i < feriado.length; i += 1) {
+      if (feriado[i].style.backgroundColor === altBG) {
+      feriado[i].style.backgroundColor = Bg;
+      } else {
+        feriado[i].style.backgroundColor = altBG;
+      }
+
+    }
+  });
+}
+
+
 btnFeriado();
 criandoDay();
+bgColor();
+
+
