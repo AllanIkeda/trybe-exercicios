@@ -107,38 +107,54 @@ function zoomOut() {
   });
 }
 
-function tarefas (tarefa){
-  let listaTarefas = document.querySelector('.my-tasks');
-  let task = document.createElement('span');
-  let quebra = document.createElement('br');
+function tarefas(tarefa) {
+  let listaTarefas = document.querySelector(".my-tasks");
+  let task = document.createElement("span");
+  let quebra = document.createElement("br");
   task.innerHTML = tarefa;
   listaTarefas.appendChild(task);
   listaTarefas.appendChild(quebra);
 }
 
-function taskColor (cor){
-  let listaTarefas = document.querySelector('.my-tasks');
-  let taskColor = document.createElement('div');
-  taskColor.className = 'task';
+function taskColor(cor) {
+  let listaTarefas = document.querySelector(".my-tasks");
+  let taskColor = document.createElement("div");
+  taskColor.className = "task";
   taskColor.style.backgroundColor = cor;
 
   listaTarefas.appendChild(taskColor);
 }
 
-function teskSelect(){
+function teskSelect() {
   let task = document.querySelector(".task");
   let taskSelected = document.getElementsByClassName("task Selected");
 
-  task.addEventListener("click", function(event){
-    if (task.className === 'task'){
+  task.addEventListener("click", function (event) {
+    if (task.className === "task") {
       event.target.className = "task selected";
     } else {
       event.target.className = "task";
     }
-
   });
-
 }
+
+function dayselect() {
+  let selected = document.getElementsByClassName("task selected");
+  let dias = document.querySelector('#days');
+  let taskDiv = document.querySelector(".task");
+  let color = taskDiv.style.backgroundColor;
+
+  days.addEventListener('click', function (event){
+    let corSelected = event.target.style.color;
+    if (selected.length > 0 && corSelected !== color) {
+      let cor = selected[0].style.backgroundColor;
+      event.target.style.color = cor;
+    } else if (corSelected === color) {
+      event.target.style.color = 'rgb(119,119,119)';
+    }
+  });
+  }
+
 
 criandoBtn("Feriados", "btn-holiday");
 criandoBtn("Sextouuu", "btn-friday");
@@ -148,8 +164,7 @@ bgColor();
 modiTxt();
 zoomIn();
 zoomOut();
-taskColor('green');
-tarefas('Cozinhar');
-
-
+taskColor("green");
+tarefas("Cozinhar");
 teskSelect();
+dayselect();
