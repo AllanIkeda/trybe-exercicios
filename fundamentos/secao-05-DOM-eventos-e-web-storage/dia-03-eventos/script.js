@@ -46,4 +46,15 @@ function criandoDay() {
   }
 }
 
+function btnFeriado (string){
+  string = 'Feriados'
+  let btnDiv = document.querySelector('.buttons-container');
+  btnHoliday = document.createElement('button');
+  btnHoliday.innerText = string;
+  btnDiv.appendChild(btnHoliday);
+  btnHoliday.id = 'btn-holiday';
+
+}
+
+btnFeriado();
 criandoDay();
