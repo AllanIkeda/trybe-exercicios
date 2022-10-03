@@ -73,10 +73,21 @@ function bgColor () {
   });
 }
 
+function modiTxt (){
+  let btn = document.querySelector('#btn-friday');
+  let sexta = document.querySelectorAll('.friday');//ARRAY
+  let txt = 'SEXXXTOU'
+
+  btn.addEventListener('click', function(){
+    for (let i = 0; i < sexta.length; i += 1)
+    sexta[i].innerText = txt;
+
+  });
+}
 
 criandoBtn('Feriados', 'btn-holiday');
 criandoBtn('Sextouuu', 'btn-friday');
 criandoDay();
 bgColor();
-
+modiTxt();
 
