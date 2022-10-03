@@ -75,19 +75,28 @@ function bgColor () {
 
 function modiTxt (){
   let btn = document.querySelector('#btn-friday');
-  let sexta = document.querySelectorAll('.friday');//ARRAY
+  let sexta = document.getElementsByClassName('friday');//ARRAY
   let txt = 'SEXXXTOU'
-
-  btn.addEventListener('click', function(){
-    for (let i = 0; i < sexta.length; i += 1)
-    sexta[i].innerText = txt;
-
+  // console.log(sextaDias);
+  // for (let i = 0; i < sexta.length; i += 1){
+    // }
+    btn.addEventListener('click', function(){
+      for (let i = 0; i < sexta.length; i += 1){
+      let sextaDias = [4, 11, 18, 25];
+      if (sexta[i].innerText !== txt){
+        sexta[i].innerText = txt;
+      } else {
+        sexta[i].innerHTML = sextaDias[i];
+      }
+    }
   });
 }
+
 
 criandoBtn('Feriados', 'btn-holiday');
 criandoBtn('Sextouuu', 'btn-friday');
 criandoDay();
 bgColor();
+// let sextaDiass = [4, 11, 18, 25];
 modiTxt();
 
