@@ -46,13 +46,12 @@ function criandoDay() {
   }
 }
 
-function btnFeriado (string){
-  string = 'Feriados'
+function criandoBtn (string, id){
   let btnDiv = document.querySelector('.buttons-container');
   btnHoliday = document.createElement('button');
   btnHoliday.innerText = string;
   btnDiv.appendChild(btnHoliday);
-  btnHoliday.id = 'btn-holiday';
+  btnHoliday.id = id;
 
 }
 
@@ -75,7 +74,8 @@ function bgColor () {
 }
 
 
-btnFeriado();
+criandoBtn('Feriados', 'btn-holiday');
+criandoBtn('Sextouuu', 'btn-friday');
 criandoDay();
 bgColor();
 
