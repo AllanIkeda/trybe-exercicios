@@ -110,8 +110,10 @@ function zoomOut() {
 function tarefas (tarefa){
   let listaTarefas = document.querySelector('.my-tasks');
   let task = document.createElement('span');
+  let quebra = document.createElement('br');
   task.innerHTML = tarefa;
   listaTarefas.appendChild(task);
+  listaTarefas.appendChild(quebra);
 }
 
 function taskColor (cor){
@@ -123,6 +125,21 @@ function taskColor (cor){
   listaTarefas.appendChild(taskColor);
 }
 
+function teskSelect(){
+  let task = document.querySelector(".task");
+  let taskSelected = document.getElementsByClassName("task Selected");
+
+  task.addEventListener("click", function(event){
+    if (task.className === 'task'){
+      event.target.className = "task selected";
+    } else {
+      event.target.className = "task";
+    }
+
+  });
+
+}
+
 criandoBtn("Feriados", "btn-holiday");
 criandoBtn("Sextouuu", "btn-friday");
 criandoDay();
@@ -131,5 +148,8 @@ bgColor();
 modiTxt();
 zoomIn();
 zoomOut();
-tarefas('cozinhar');
 taskColor('green');
+tarefas('Cozinhar');
+
+
+teskSelect();
