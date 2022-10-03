@@ -114,6 +114,15 @@ function tarefas (tarefa){
   listaTarefas.appendChild(task);
 }
 
+function taskColor (cor){
+  let listaTarefas = document.querySelector('.my-tasks');
+  let taskColor = document.createElement('div');
+  taskColor.className = 'task';
+  taskColor.style.backgroundColor = cor;
+
+  listaTarefas.appendChild(taskColor);
+}
+
 criandoBtn("Feriados", "btn-holiday");
 criandoBtn("Sextouuu", "btn-friday");
 criandoDay();
@@ -123,3 +132,4 @@ modiTxt();
 zoomIn();
 zoomOut();
 tarefas('cozinhar');
+taskColor('green');
