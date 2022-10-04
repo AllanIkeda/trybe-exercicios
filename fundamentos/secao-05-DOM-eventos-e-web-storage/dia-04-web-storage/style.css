@@ -1,0 +1,7 @@
+.lineBlock {
+  display: inline-block;
+}
+
+#paragrafo {
+  border: 1px solid red;
+}
