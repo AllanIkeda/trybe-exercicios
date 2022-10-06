@@ -38,9 +38,9 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 5.1 - JavaScript - DOM e seletores
 - [X] 5.2 - JavaScript - Trabalhando com elementos
 - [X] 5.3 - JavaScript - Eventos
-- [ ] 5.4 - JavaScript - Web Storage
-- [ ] 5.5 - Fundamentos - JavaScript - Projetos
-- [ ] 5.5 - Projeto - Arte com Pixels
+- [X] 5.4 - JavaScript - Web Storage
+- [X] 5.5 - Fundamentos - JavaScript - Projetos
+- [X] 5.5 - Projeto - ___[Pixel Art](https://github.com/tryber/sd-027-a-project-pixels-art/tree/6db3ca7b4d79b211f2bd554b9a3d32d4abda014cArte)___
 - [ ] 5.6 - Projeto - Lista de tarefas
 - [ ] 5.7 - (Bônus) Projeto - Meme Generator
 - [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
