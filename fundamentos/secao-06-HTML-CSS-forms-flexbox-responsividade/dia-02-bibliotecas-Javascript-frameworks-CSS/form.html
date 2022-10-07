@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="display-4 text-muted">Header da página</h1>
+    </header>
+    <form action="" method="get">
+      <fieldset>
+        <legend>Formulário</legend>
+        <section class="form-group">
+          <div class="form-floating mb-3">
+            <input class="form-control" type="text" minlength="10" maxlength="40" name="name" id="nameInput" placeholder="Nome">
+            <label for="nameInput">Nome:</label>
+          </div>
+        </section>
+        <br>
+        <section class="form-group">
+          <div class="form-floating mb-3">
+            <input class="form-control is-invalid" type="email" minlength="10" maxlength="50" name="email" id="emailInput" placeholder="name@example.com">
+            <label for="emailInput">Email:</label>
+          </div>
+        </section>
+        <br>
+        <section class="form-group">
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="radio" name="opção" value="Cidade" id="opção1">
+            <label class="form-check-label" for="opção1">Cidade</label>
+          </div>
+          <div class="form-check form-switch">
+          <input class="form-check-input" type="radio" name="opção" value="Campo" id="opção2">
+          <label class="form-check-label" for="opção2">Campo</label>
+          </div>
+          <div class="form-check form-switch">
+          <input class="form-check-input" type="radio" name="opção" value="Praia" id="opção3">
+          <label class="form-check-label" for="opção3">Praia</label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="radio" name="opção" value="Montanhas" id="opção4">
+          <label class="form-check-label" for="opção4">Montanhas</label>
+        </div>
+        </section>
+        <br>
+          <div class="form-floating">
+            <textarea class="form-control" name="texto" id="areatxt" maxlength="500" cols="30" rows="10" placeholder="Espaço para digitar a resposta:"></textarea>
+            <label for="areatxt">Espaço para digitar a resposta:</label>
+      </div>
+        <br>
+        <label for="date">Data:</label>
+        <input class="" type="date" name="date" id="date">
+        <br>
+        <input class="" type="checkbox" name="box" id="box1">
+        <label for="box1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <br>
+        <input class="" type="checkbox" name="box" required id="box2">
+        <label for="box2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <br>
+    </fieldset>
+      <button type="submit" id="submit" class="btn btn-success">Enviar</button>
+      <button type="reset" class="btn btn-danger">Apagar</button>
+
+    </form>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
