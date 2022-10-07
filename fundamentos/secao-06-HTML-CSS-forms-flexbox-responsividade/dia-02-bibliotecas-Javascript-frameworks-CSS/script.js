@@ -6,3 +6,4 @@ btnSubmit.addEventListener('click', (e) => {
     e.preventDefault();
   }
 });
+document.getElementById('date').DatePickerX.init();
