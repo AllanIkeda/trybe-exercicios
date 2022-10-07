@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+  </head>
+  <body>
+    <header>
+      <h1>Header da página</h1>
+    </header>
+    <form action="" method="get">
+      <fieldset>
+        <legend>TESTE</legend>
+        <section>
+          <label for="input-name">Nome:</label>
+          <input type="text" minlength="10" maxlength="40" name="nome" id="input-name" >
+        </section>
+        <br>
+        <section>
+          <label for="iput-email">Email:</label>
+          <input type="email" minlength="10" maxlength="50" name="email" id="iput-email">
+        </section>
+        <br>
+        <section>
+        <input type="radio" name="opção" value="Cidade" id="opção1">
+        <label for="opção1">Cidade</label>
+        <input type="radio" name="opção" value="Campo" id="opção2">
+        <label for="opção2">Campo</label>
+        <input type="radio" name="opção" value="Praia" id="opção3">
+        <label for="opção3">Praia</label>
+        <input type="radio" name="opção" value="Montanhas" id="opção4">
+        <label for="opção4">oMontanhas</label>
+        </section>
+        <br>
+        <section>
+        <label for="areatxt">Espaço para digitar a resposta:</label>
+        </section>
+        <br>
+        <textarea name="texto" id="areatxt" maxlength="500" cols="30" rows="10"></textarea>
+        <br>
+        <label for="date">Data:</label>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="box1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input type="checkbox" name="box" id="box1">
+        <br>
+        <label for="box2">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+        <input type="checkbox" name="box" required id="box2">
+        <br>
+    </fieldset>
+      <button type="submit" id="submit">Enviar</button>
+      <button type="reset">Apagar</button>
+
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
