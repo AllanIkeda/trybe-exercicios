@@ -69,13 +69,17 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.card-container img{
+  display: flex;
+  flex-basis: 150px;
 
+}
 .card-container div {
   align-items: center;
   background-color: #5C687C;
   border: black solid 1px;
   display: flex;
-  height: 150px;
+  height: max-content;
   justify-content: center;
   margin: 10px;
   flex-basis: 16%;
