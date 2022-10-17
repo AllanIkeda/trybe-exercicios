@@ -13,29 +13,43 @@
 
 // testingScope(true);
 
-const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-const sortArrayBonus = (array) => {
-  const sortOddsAndEvens = array.sort((a, b) => a - b);
-  return sortOddsAndEvens;
-};
+// const sortArrayBonus = (array) => {
+//   const sortOddsAndEvens = array.sort((a, b) => a - b);
+//   return sortOddsAndEvens;
+// };
 
-const sortedArrayBonus = sortArrayBonus(oddsAndEvens);
-console.log(`Os números ${sortedArrayBonus} se encontram ordenados de forma crescente!`);
+// const sortedArrayBonus = sortArrayBonus(oddsAndEvens);
+// console.log(`Os números ${sortedArrayBonus} se encontram ordenados de forma crescente!`);
 
 
 // const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 // console.log(`Os números ${oddsAndEvens.sort((a, b) => a - b)} se encontram ordenados de forma crescente!`);
 
-const factorial = (N) => {
-  let result = 1;
-  for (let i = 2; i <= N; i += 1) {
-    result *= i;
-  }
-  return `o fatorial de ${N} é ${result}`;
-}
-console.log(factorial(4));
+// const factorial = (N) => {
+//   let result = 1;
+//   for (let i = 2; i <= N; i += 1) {
+//     result *= i;
+//   }
+//   return `o fatorial de ${N} é ${result}`;
+// }
+// console.log(factorial(4));
 
-const fator = n => n > 1 ? n * fator (n - 1) : 1;
-console.log(fator(40));
+// const fator = n => n > 1 ? n * fator (n - 1) : 1;
+// console.log(fator(40));
+
+const maiorPalavra = frase => {
+const array = frase.split(' ');
+let maiorPalavra = 0;
+let result = '';
+
+for (let palavra of array) {
+  if (palavra.length > maiorPalavra) {
+    result = palavra;
+  }
+}
+ return result;
+}
+console.log(maiorPalavra('Antonio foi ao banheiro e não sabemos o que aconteceu'));
