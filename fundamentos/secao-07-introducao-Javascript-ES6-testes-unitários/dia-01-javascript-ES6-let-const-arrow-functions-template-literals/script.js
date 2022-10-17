@@ -35,4 +35,7 @@ const factorial = (N) => {
   }
   return `o fatorial de ${N} é ${result}`;
 }
-console.log(factorial(10));
+console.log(factorial(4));
+
+const fator = n => n > 1 ? n * fator (n - 1) : 1;
+console.log(fator(40));
