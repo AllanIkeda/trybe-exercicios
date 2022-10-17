@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inknut Antiqua", serif;
+}
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login-header {
+  display: flex;
+}
+
+main {
+   /* requisito 5 */
+  display: flex;
+}
+
+#evaluation-form {
+  /* requisito 5 */
+  display: flex;
+  width: 675px;
+  /* requisito 6 */
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.form label {
+
+  /* width: 50%; */
+  /* flex-direction: row; */
+}
