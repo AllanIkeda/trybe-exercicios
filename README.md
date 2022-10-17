@@ -33,7 +33,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [X] 4.4 - JavaScript - Objetos e funções
 - [X] 4.5 - Projeto - Playground Functions
--
+
 - ##### Seção 5:
 - [X] 5.1 - JavaScript - DOM e seletores
 - [X] 5.2 - JavaScript - Trabalhando com elementos
@@ -41,8 +41,22 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 5.4 - JavaScript - Web Storage
 - [X] 5.5 - Fundamentos - JavaScript - Projetos
 - [X] 5.5 - Projeto - ___[Pixel Art](https://github.com/tryber/sd-027-a-project-pixels-art/tree/6db3ca7b4d79b211f2bd554b9a3d32d4abda014cArte)___
-- [ ] 5.6 - Projeto - Lista de tarefas
-- [ ] 5.7 - (Bônus) Projeto - Meme Generator
-- [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
-- [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
+- [X] 5.6 - (Bônus) Projeto - ___[Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/tree/allan-ikeda-todo-list-project)___
+- [X] 5.7 - (Bônus) Projeto - ___[Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/tree/allan-ikeda-meme-generator-project)___
+- [-] 5.7 - (Bônus) Projeto - ___[Adivinhe a Cor](https://github.com/tryber/sd-027-a-project-color-guess/tree/allan-ikeda-project-color-guess___
+- [-] 5.7 - (Bônus) Projeto - ___[Carta Misteriosa]
 
+##### Seção 6:
+- [X] 6.1 - HTML & CSS - Forms
+- [X] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+- [X] 6.3 - Introdução - CSS Flexbox
+- [X] 6.3 - CSS Flexbox - Parte 1
+- [X] 6.4 - CSS Flexbox - Parte 2
+- [X] 6.5 - CSS Responsivo - Mobile First
+- [X] 6.6 - Projeto - ___[TrybeWarts](https://github.com/tryber/sd-027-a-project-trybewarts/tree/allan-ikeda-trybewarts)___
+
+##### Seção 7:
+- [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+- [ ] 7.2 - JavaScript ES6 - Objects
+- [ ] 7.3 - Testes unitários em JavaScript
+- [ ] 7.4 - Projeto - JavaScript Testes Unitários
