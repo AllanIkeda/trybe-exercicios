@@ -1,55 +1,78 @@
-// testando variaveis
-// function testingScope(escopo) {
-//   if (escopo === true) {
-//     const ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
-//     ifScope = ifScope + ' ótimo, fui utilizada no escopo !';
-//     console.log(ifScope);
-//   } else {
-//     let elseScope = 'Não devo ser utilizada fora do meu escopo (else)';
-//     console.log(elseScope);
-//   }
-//   // console.log(ifScope + ' o que estou fazendo aqui ? :O');
-// }
-
-// testingScope(true);
-
-// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-
-// const sortArrayBonus = (array) => {
-//   const sortOddsAndEvens = array.sort((a, b) => a - b);
-//   return sortOddsAndEvens;
-// };
-
-// const sortedArrayBonus = sortArrayBonus(oddsAndEvens);
-// console.log(`Os números ${sortedArrayBonus} se encontram ordenados de forma crescente!`);
-
-
-// const oddsAndEvens = [13, 3, 4, 10, 7, 2];
-
-// console.log(`Os números ${oddsAndEvens.sort((a, b) => a - b)} se encontram ordenados de forma crescente!`);
-
-// const factorial = (N) => {
-//   let result = 1;
-//   for (let i = 2; i <= N; i += 1) {
-//     result *= i;
-//   }
-//   return `o fatorial de ${N} é ${result}`;
-// }
-// console.log(factorial(4));
-
-// const fator = n => n > 1 ? n * fator (n - 1) : 1;
-// console.log(fator(40));
-
-const maiorPalavra = frase => {
-const array = frase.split(' ');
-let maiorPalavra = 0;
-let result = '';
-
-for (let palavra of array) {
-  if (palavra.length > maiorPalavra) {
-    result = palavra;
+function testingScope(escopo) {
+  if (escopo === true) {
+    let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
+    ifScope = ifScope + ' ótimo, fui utilizada no escopo !';
+    console.log(ifScope);
+  } else {
+    let elseScope = 'Não devo ser utilizada fora do meu escopo (else)';
+    console.log(elseScope);
   }
 }
- return result;
+testingScope(true);
+
+const array = [13, 3, 4, 10, 7, 2];
+const sortOddsAndEvens = () => {
+  for (let index = 1; index < array.length; index += 1) {
+    for (let index2 = 0; index2 < index; index2 += 1) {
+      if (array[index] < array[index2]) {
+        let position = array[index];
+        array[index] = array[index2];
+        array[index2] = position;
+      }
+    }
+  }
+  console.log(array);
 }
-console.log(maiorPalavra('Antonio foi ao banheiro e não sabemos o que aconteceu'));
+sortOddsAndEvens();
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+const ordena = () => {
+  const ordenada = oddsAndEvens.sort((a, b) => a - b);
+  return ordenada;
+};
+console.log(ordena());
+const fatorial = (n) => {
+  let resultado = 1
+  for (let index = n; index > 1; index -= 1) {
+    resultado *= index;
+  }
+  return resultado;
+};
+console.log(fatorial(3));
+let longestWord = ('Antônio foi ao banheiro e não sabemos o que aconteceu umapalavramaiorvamosver'); // retorna 'aconteceu'
+let array = [];
+let stringv = '';
+const maiorPalavra = (frase) => {
+  array = frase.split(' ');
+  for (const iterator of array) {
+    if (iterator.length > stringv.length) {
+      stringv = iterator;
+    }
+  }
+  return stringv;
+}
+console.log(maiorPalavra(longestWord));
+let getCont = document.getElementById('cont');
+const getBtn = document.getElementById('btn');
+cont = 0;
+console.log(getCont);
+console.log(getBtn);
+getBtn.addEventListener('click', () => {
+  cont += 1;
+  getCont.innerHTML = cont;
+});
+const substituaX = (nome) => {
+  const frase = 'Tryber X Aqui';
+  const fraseArray = frase.split(' ');
+  for (let index = 0; index < fraseArray.length; index += 1) {
+    if (fraseArray[index] === 'X') {
+      fraseArray[index] = nome;
+    }
+  }
+  return fraseArray.join(' ');
+}
+const minhasSkills = (returnsubstitua) => {
+  const skills = ['JavaScript', 'HTML', 'CSS'];
+  return `${returnsubstitua}.
+  Minhas três principais habilidades são: ${skills[0]}, ${skills[1]} e ${skills[2]}`;
+}
+console.log(minhasSkills(substituaX('ala')));
