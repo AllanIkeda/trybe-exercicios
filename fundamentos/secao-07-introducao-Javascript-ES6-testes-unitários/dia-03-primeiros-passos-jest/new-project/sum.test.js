@@ -1,5 +1,7 @@
-const sum = (a, b) => a + b;
+const {sum} = require('./sum');
 
-test('soma dois valores', () => {
-  expect(sum(2, 3)).toEqual(5);
+describe('exercicio 1', () => {
+  it ('teste se o retorno de sum 4 + 5 é 9', () => {
+    expect(sum(4, 5)).toBe(9)
+  });
 });
