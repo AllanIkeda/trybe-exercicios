@@ -429,8 +429,19 @@ const expectedResult = 20;
 
 function containsA() {
   // escreva seu código aqui
-  
+  let resultA = 0;
+  names.forEach(word => {
+    const separa = word.split('');
+    resultA += separa.reduce((acc, curr) => curr.toLocaleLowerCase() === 'a' ? acc + 1: acc, 0);
+    //   if (curr === 'a' || curr === 'A') {
+    //     return acc + 1;
+    //   }
+    //   return acc;
+    // }, 0);
+  });
+  return resultA;
 }
+console.log(containsA());
 
 /**
  * ! exercicio 4
