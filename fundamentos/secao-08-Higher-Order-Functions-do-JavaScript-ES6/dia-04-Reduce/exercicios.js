@@ -176,8 +176,9 @@ const arrays = [["1", "2", "3"], [true], [4, 5, 6]];
 
 function flatten() {
   // escreva seu código aqui
+  return arrays.reduce((acc, curr) => acc.concat(curr));
 }
-
+console.log(flatten());
 /**
  * ! exercicio 2
  * *Considere o seguinte array e manipule-o utilizando reduce para fazer o que é pedido: */
