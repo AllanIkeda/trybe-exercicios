@@ -172,294 +172,299 @@
  * ! exercicio 1
  * *Utilize o reduce para transformar uma matriz em um array.*/
 
-const arrays = [["1", "2", "3"], [true], [4, 5, 6]];
+ const arrays = [["1", "2", "3"], [true], [4, 5, 6]];
 
-function flatten() {
-  // escreva seu código aqui
-  return arrays.reduce((acc, curr) => acc.concat(curr));
-}
-console.log(flatten());
-/**
- * ! exercicio 2
- * *Considere o seguinte array e manipule-o utilizando reduce para fazer o que é pedido: */
-
-
-
-// Adicione o código do exercício aqui:
-/**
- *  *Crie uma string com os nomes de todas as pessoas autoras. */ // { id: 1, name: "As Crônicas de Gelo e Fogo", genre: "Fantasia", author: { name: "George R. R. Martin", birthYear: 1948, }, releaseYear: 1991, },
-
-const expectedResult1 =
-  "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
-  const books = [
-    {
-      id: 1,
-      name: "As Crônicas de Gelo e Fogo",
-      genre: "Fantasia",
-      author: {
-        name: "George R. R. Martin",
-        birthYear: 1948,
-      },
-      releaseYear: 1991,
-    },
-    {
-      id: 2,
-      name: "O Senhor dos Anéis",
-      genre: "Fantasia",
-      author: {
-        name: "J. R. R. Tolkien",
-        birthYear: 1892,
-      },
-      releaseYear: 1954,
-    },
-    {
-      id: 3,
-      name: "Fundação",
-      genre: "Ficção Científica",
-      author: {
-        name: "Isaac Asimov",
-        birthYear: 1920,
-      },
-      releaseYear: 1951,
-    },
-    {
-      id: 4,
-      name: "Duna",
-      genre: "Ficção Científica",
-      author: {
-        name: "Frank Herbert",
-        birthYear: 1920,
-      },
-      releaseYear: 1965,
-    },
-    {
-      id: 5,
-      name: "A Coisa",
-      genre: "Terror",
-      author: {
-        name: "Stephen King",
-        birthYear: 1947,
-      },
-      releaseYear: 1986,
-    },
-    {
-      id: 6,
-      name: "O Chamado de Cthulhu",
-      genre: "Terror",
-      author: {
-        name: "H. P. Lovecraft",
-        birthYear: 1890,
-      },
-      releaseYear: 1928,
-    },
-  ];
-function reduceNames() {
-  // escreva seu código aqui
-  const objAuthor = books.map((book) => book.author); // { name: "George R. R. Martin", birthYear: 1948, }
-  const arrayNomes = objAuthor.reduce((acc, curr) => `${acc} ${curr.name}. `, '');
-  return arrayNomes;
-}
- console.log(reduceNames());
-/**
- *  *Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados. */
-
- const expectedResult2 = 43;
- const books2 = [
-  {
-    id: 1,
-    name: "As Crônicas de Gelo e Fogo",
-    genre: "Fantasia",
-    author: {
-      name: "George R. R. Martin",
-      birthYear: 1948,
-    },
-    releaseYear: 1991,
-  },
-  {
-    id: 2,
-    name: "O Senhor dos Anéis",
-    genre: "Fantasia",
-    author: {
-      name: "J. R. R. Tolkien",
-      birthYear: 1892,
-    },
-    releaseYear: 1954,
-  },
-  {
-    id: 3,
-    name: "Fundação",
-    genre: "Ficção Científica",
-    author: {
-      name: "Isaac Asimov",
-      birthYear: 1920,
-    },
-    releaseYear: 1951,
-  },
-  {
-    id: 4,
-    name: "Duna",
-    genre: "Ficção Científica",
-    author: {
-      name: "Frank Herbert",
-      birthYear: 1920,
-    },
-    releaseYear: 1965,
-  },
-  {
-    id: 5,
-    name: "A Coisa",
-    genre: "Terror",
-    author: {
-      name: "Stephen King",
-      birthYear: 1947,
-    },
-    releaseYear: 1986,
-  },
-  {
-    id: 6,
-    name: "O Chamado de Cthulhu",
-    genre: "Terror",
-    author: {
-      name: "H. P. Lovecraft",
-      birthYear: 1890,
-    },
-    releaseYear: 1928,
-  },
-];
- function averageAge() {
+ function flatten() {
    // escreva seu código aqui
-   const totalAuthor = books2.length;
-   const sumAges = books2.reduce((acc, curr) => acc + (curr.releaseYear - curr.author.birthYear), 0);
-   return sumAges / totalAuthor;
+   return arrays.reduce((acc, curr) => acc.concat(curr));
  }
- console.log(averageAge());
+ console.log(flatten());
+ /**
+  * ! exercicio 2
+  * *Considere o seguinte array e manipule-o utilizando reduce para fazer o que é pedido: */
+
+
+
+ // Adicione o código do exercício aqui:
+ /**
+  *  *Crie uma string com os nomes de todas as pessoas autoras. */ // { id: 1, name: "As Crônicas de Gelo e Fogo", genre: "Fantasia", author: { name: "George R. R. Martin", birthYear: 1948, }, releaseYear: 1991, },
+
+ const expectedResult1 =
+   "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
+   const books = [
+     {
+       id: 1,
+       name: "As Crônicas de Gelo e Fogo",
+       genre: "Fantasia",
+       author: {
+         name: "George R. R. Martin",
+         birthYear: 1948,
+       },
+       releaseYear: 1991,
+     },
+     {
+       id: 2,
+       name: "O Senhor dos Anéis",
+       genre: "Fantasia",
+       author: {
+         name: "J. R. R. Tolkien",
+         birthYear: 1892,
+       },
+       releaseYear: 1954,
+     },
+     {
+       id: 3,
+       name: "Fundação",
+       genre: "Ficção Científica",
+       author: {
+         name: "Isaac Asimov",
+         birthYear: 1920,
+       },
+       releaseYear: 1951,
+     },
+     {
+       id: 4,
+       name: "Duna",
+       genre: "Ficção Científica",
+       author: {
+         name: "Frank Herbert",
+         birthYear: 1920,
+       },
+       releaseYear: 1965,
+     },
+     {
+       id: 5,
+       name: "A Coisa",
+       genre: "Terror",
+       author: {
+         name: "Stephen King",
+         birthYear: 1947,
+       },
+       releaseYear: 1986,
+     },
+     {
+       id: 6,
+       name: "O Chamado de Cthulhu",
+       genre: "Terror",
+       author: {
+         name: "H. P. Lovecraft",
+         birthYear: 1890,
+       },
+       releaseYear: 1928,
+     },
+   ];
+ function reduceNames() {
+   // escreva seu código aqui
+   const objAuthor = books.map((book) => book.author); // { name: "George R. R. Martin", birthYear: 1948, }
+   const arrayNomes = objAuthor.reduce((acc, curr) => `${acc} ${curr.name}. `, '');
+   return arrayNomes;
+ }
+  console.log(reduceNames());
+ /**
+  *  *Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados. */
+
+  const expectedResult2 = 43;
+  const books2 = [
+   {
+     id: 1,
+     name: "As Crônicas de Gelo e Fogo",
+     genre: "Fantasia",
+     author: {
+       name: "George R. R. Martin",
+       birthYear: 1948,
+     },
+     releaseYear: 1991,
+   },
+   {
+     id: 2,
+     name: "O Senhor dos Anéis",
+     genre: "Fantasia",
+     author: {
+       name: "J. R. R. Tolkien",
+       birthYear: 1892,
+     },
+     releaseYear: 1954,
+   },
+   {
+     id: 3,
+     name: "Fundação",
+     genre: "Ficção Científica",
+     author: {
+       name: "Isaac Asimov",
+       birthYear: 1920,
+     },
+     releaseYear: 1951,
+   },
+   {
+     id: 4,
+     name: "Duna",
+     genre: "Ficção Científica",
+     author: {
+       name: "Frank Herbert",
+       birthYear: 1920,
+     },
+     releaseYear: 1965,
+   },
+   {
+     id: 5,
+     name: "A Coisa",
+     genre: "Terror",
+     author: {
+       name: "Stephen King",
+       birthYear: 1947,
+     },
+     releaseYear: 1986,
+   },
+   {
+     id: 6,
+     name: "O Chamado de Cthulhu",
+     genre: "Terror",
+     author: {
+       name: "H. P. Lovecraft",
+       birthYear: 1890,
+     },
+     releaseYear: 1928,
+   },
+ ];
+  function averageAge() {
+    // escreva seu código aqui
+    const totalAuthor = books2.length;
+    const sumAges = books2.reduce((acc, curr) => acc + (curr.releaseYear - curr.author.birthYear), 0);
+    return sumAges / totalAuthor;
+  }
+  console.log(averageAge());
+
+  /**
+  *  *Encontre o livro com o maior nome.*/
+
+   const expectedResult3 = {
+     id: 1,
+     name: 'As Crônicas de Gelo e Fogo',
+     genre: 'Fantasia',
+     author: {
+       name: 'George R. R. Martin',
+       birthYear: 1948,
+     },
+     releaseYear: 1991,
+   };
+  const books3 = [
+   {
+     id: 1,
+     name: "As Crônicas de Gelo e Fogo",
+     genre: "Fantasia",
+     author: {
+       name: "George R. R. Martin",
+       birthYear: 1948,
+     },
+     releaseYear: 1991,
+   },
+   {
+     id: 2,
+     name: "O Senhor dos Anéis",
+     genre: "Fantasia",
+     author: {
+       name: "J. R. R. Tolkien",
+       birthYear: 1892,
+     },
+     releaseYear: 1954,
+   },
+   {
+     id: 3,
+     name: "Fundação",
+     genre: "Ficção Científica",
+     author: {
+       name: "Isaac Asimov",
+       birthYear: 1920,
+     },
+     releaseYear: 1951,
+   },
+   {
+     id: 4,
+     name: "Duna",
+     genre: "Ficção Científica",
+     author: {
+       name: "Frank Herbert",
+       birthYear: 1920,
+     },
+     releaseYear: 1965,
+   },
+   {
+     id: 5,
+     name: "A Coisa",
+     genre: "Terror",
+     author: {
+       name: "Stephen King",
+       birthYear: 1947,
+     },
+     releaseYear: 1986,
+   },
+   {
+     id: 6,
+     name: "O Chamado de Cthulhu",
+     genre: "Terror",
+     author: {
+       name: "H. P. Lovecraft",
+       birthYear: 1890,
+     },
+     releaseYear: 1928,
+   },
+ ];
+   function longestNamedBook() {
+     // escreva seu código aqui
+     return books3.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : acc = curr)
+   }
+ console.log(longestNamedBook());
 
  /**
- *  *Encontre o livro com o maior nome.*/
+  * ! exercicio 3
+  * *Dado o array de nomes, utilize o reduce para retornar a quantidade de vezes em que aparece a letra a, maiúscula ou minúscula. */
 
-  const expectedResult3 = {
-    id: 1,
-    name: 'As Crônicas de Gelo e Fogo',
-    genre: 'Fantasia',
-    author: {
-      name: 'George R. R. Martin',
-      birthYear: 1948,
-    },
-    releaseYear: 1991,
-  };
- const books3 = [
-  {
-    id: 1,
-    name: "As Crônicas de Gelo e Fogo",
-    genre: "Fantasia",
-    author: {
-      name: "George R. R. Martin",
-      birthYear: 1948,
-    },
-    releaseYear: 1991,
-  },
-  {
-    id: 2,
-    name: "O Senhor dos Anéis",
-    genre: "Fantasia",
-    author: {
-      name: "J. R. R. Tolkien",
-      birthYear: 1892,
-    },
-    releaseYear: 1954,
-  },
-  {
-    id: 3,
-    name: "Fundação",
-    genre: "Ficção Científica",
-    author: {
-      name: "Isaac Asimov",
-      birthYear: 1920,
-    },
-    releaseYear: 1951,
-  },
-  {
-    id: 4,
-    name: "Duna",
-    genre: "Ficção Científica",
-    author: {
-      name: "Frank Herbert",
-      birthYear: 1920,
-    },
-    releaseYear: 1965,
-  },
-  {
-    id: 5,
-    name: "A Coisa",
-    genre: "Terror",
-    author: {
-      name: "Stephen King",
-      birthYear: 1947,
-    },
-    releaseYear: 1986,
-  },
-  {
-    id: 6,
-    name: "O Chamado de Cthulhu",
-    genre: "Terror",
-    author: {
-      name: "H. P. Lovecraft",
-      birthYear: 1890,
-    },
-    releaseYear: 1928,
-  },
-];
-  function longestNamedBook() {
-    // escreva seu código aqui
-    return books3.reduce((acc, curr) => acc.name.length > curr.name.length ? acc : acc = curr)
-  }
-console.log(longestNamedBook());
-
-/**
- * ! exercicio 3
- * *Dado o array de nomes, utilize o reduce para retornar a quantidade de vezes em que aparece a letra a, maiúscula ou minúscula. */
-
- const names = [
-  'Aanemarie', 'Adervandes', 'Akifusa',
-  'Abegildo', 'Adicellia', 'Aladonata',
-  'Abeladerco', 'Adieidy', 'Alarucha',
-];
-
-const expectedResult = 20;
-
-function containsA() {
-  // escreva seu código aqui
-  let resultA = 0;
-  names.forEach(word => {
-    const separa = word.split('');
-    resultA += separa.reduce((acc, curr) => curr.toLocaleLowerCase() === 'a' ? acc + 1: acc, 0);
-    //   if (curr === 'a' || curr === 'A') {
-    //     return acc + 1;
-    //   }
-    //   return acc;
-    // }, 0);
-  });
-  return resultA;
-}
-console.log(containsA());
-
-/**
- * ! exercicio 4
- * *Para o próximo exercício você deve criar um novo array de objetos a partir das informações de students e grades,
- * *onde cada objeto desse novo array terá o formato { name: nome do aluno, average: media das notas }.
- * *Para isso vamos assumir que a posição 0 de grades refere-se ao estudante na posição 0 de students.
- * *Para resolver este exercício, além de reduce, será necessário utilizar também a função map.
- * ?De olho na dica 👀: Você pode acessar o index do array dentro de map, e você pode ver o objeto esperado na constante expected. */
-
- const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
- const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
-
- function studentAverage() {
-   // escreva seu código aqui
- }
-
- const expected = [
-   { name: 'Pedro Henrique', average: 7.8 },
-   { name: 'Miguel', average: 9.2 },
-   { name: 'Maria Clara', average: 8.8 },
+  const names = [
+   'Aanemarie', 'Adervandes', 'Akifusa',
+   'Abegildo', 'Adicellia', 'Aladonata',
+   'Abeladerco', 'Adieidy', 'Alarucha',
  ];
+
+ const expectedResult = 20;
+
+ function containsA() {
+   // escreva seu código aqui
+   let resultA = 0;
+   names.forEach(word => {
+     const separa = word.split('');
+     resultA += separa.reduce((acc, curr) => curr.toLocaleLowerCase() === 'a' ? acc + 1: acc, 0);
+     //   if (curr === 'a' || curr === 'A') {
+     //     return acc + 1;
+     //   }
+     //   return acc;
+     // }, 0);
+   });
+   return resultA;
+ }
+ console.log(containsA());
+
+ /**
+  * ! exercicio 4
+  * *Para o próximo exercício você deve criar um novo array de objetos a partir das informações de students e grades,
+  * *onde cada objeto desse novo array terá o formato { name: nome do aluno, average: media das notas }.
+  * *Para isso vamos assumir que a posição 0 de grades refere-se ao estudante na posição 0 de students.
+  * *Para resolver este exercício, além de reduce, será necessário utilizar também a função map.
+  * ?De olho na dica 👀: Você pode acessar o index do array dentro de map, e você pode ver o objeto esperado na constante expected. */
+
+  const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+  const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+
+  function studentAverage() {
+    // escreva seu código aqui
+    return students.map((student, i) => ({
+      name: student,
+      average: grades[i]
+      .reduce((acc, currGrade) => acc + currGrade, 0) / grades[i].length
+    }));
+  }
+ console.log(studentAverage());
+  const expected = [
+    { name: 'Pedro Henrique', average: 7.8 },
+    { name: 'Miguel', average: 9.2 },
+    { name: 'Maria Clara', average: 8.8 },
+  ];
