@@ -43,7 +43,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 5.5 - Projeto - ___[Pixel Art](https://github.com/tryber/sd-027-a-project-pixels-art/tree/6db3ca7b4d79b211f2bd554b9a3d32d4abda014cArte)___
 - [X] 5.6 - (Bônus) Projeto - ___[Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/tree/allan-ikeda-todo-list-project)___
 - [X] 5.7 - (Bônus) Projeto - ___[Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/tree/allan-ikeda-meme-generator-project)___
-- [-] 5.7 - (Bônus) Projeto - ___[Adivinhe a Cor](https://github.com/tryber/sd-027-a-project-color-guess/tree/allan-ikeda-project-color-guess___
+- [-] 5.7 - (Bônus) Projeto - ___[Adivinhe a Cor](https://github.com/tryber/sd-027-a-project-color-guess/tree/allan-ikeda-project-color-guess)___
 - [-] 5.7 - (Bônus) Projeto - ___[Carta Misteriosa]
 
 ##### Seção 6:
@@ -64,6 +64,6 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Seção 8:
 - [X] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
+- [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [ ] 8.5 - Projeto - Zoo functions
