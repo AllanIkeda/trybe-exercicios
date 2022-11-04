@@ -57,14 +57,14 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
 - [X] 7.2 - JavaScript ES6 - Objects
 - [X] 7.3 - Testes unitários em JavaScript
-- [X] 7.4 - Projeto - JavaScript Testes Unitários
+- [X] 7.4 - Projeto - ___[JavaScript Testes Unitários](https://github.com/tryber/sd-027-a-project-js-unit-tests/tree/allan-ikeda-js-unit-tests)__
 
 ##### Seção 8:
 - [X] 8.1 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
 - [X] 8.2 - JavaScript ES6 - Higher Order Functions - map e filter
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [X] 8.5 - Projeto - Zoo functions
+- [X] 8.5 - Projeto - ___[Zoo functions](https://github.com/tryber/sd-027-a-project-zoo-functions/tree/allan-ikeda-zoo-functions-project)__
 
 ## Desenvolvimento Front-end:
 
