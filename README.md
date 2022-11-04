@@ -5,7 +5,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web
+##  __[Fundamentos do Desenvolvimento Web](https://github.com/AllanIkeda/trybe-exercicios/tree/main/fundamentos)__
 
 ##### Seção 1:
 - [X] 1.3 - Fundamentos do Desenvolvimento Web
