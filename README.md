@@ -40,7 +40,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 5.3 - JavaScript - Eventos
 - [X] 5.4 - JavaScript - Web Storage
 - [X] 5.5 - Fundamentos - JavaScript - Projetos
-- [X] 5.5 - Projeto - ___[Pixel Art](https://github.com/tryber/sd-027-a-project-pixels-art/tree/6db3ca7b4d79b211f2bd554b9a3d32d4abda014cArte)___
+- [X] 5.5 - Projeto - ___[Pixel Art](https://github.com/tryber/sd-027-a-project-pixels-art/tree/allan-ikeda-project-pixels-art)___
 - [X] 5.6 - (Bônus) Projeto - ___[Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/tree/allan-ikeda-todo-list-project)___
 - [X] 5.7 - (Bônus) Projeto - ___[Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/tree/allan-ikeda-meme-generator-project)___
 
