@@ -67,3 +67,16 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 8.3 - JavaScript ES6 - Higher Order Functions - reduce
 - [x] 8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [X] 8.5 - Projeto - Zoo functions
+
+## Desenvolvimento Front-end:
+
+##### Seção 9:
+- [ ] 9.1 - JavaScript Assíncrono e Callbacks
+- [ ] 9.2 - JavaScript Promises
+- [ ] 9.3 - Projeto - Carrinho de Compras
+
+##### Seção 10:
+- [ ] 10.1 - Primeiros passos no Jest
+- [ ] 10.2 - Jest - Testes Assíncronos
+- [ ] 10.3 - Jest - Simulando comportamentos
+- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
