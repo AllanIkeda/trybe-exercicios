@@ -16,12 +16,5 @@ botao.addEventListener('click', (e) => {
     uuid: validator.isUUID(campoDeTexto.value, UUID_VERSION),
     url: validator.isURL(campoDeTexto.value),
   };
-  let resp = '';
-  Object.keys(campos).forEach((chave) => {
-    resp = chave;
-    resp.toLocaleUpperCase();
-    seletor.value.toLocaleUpperCase();
-    if (resp === seletor.value) return resp;
-  });
-  textoDeSaida.innerHTML = `A validação retornou ${resp}`;
+  textoDeSaida.innerHTML = `A validação retornou ${campos[seletor.value]}`;
 });
