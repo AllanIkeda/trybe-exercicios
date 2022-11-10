@@ -2,6 +2,7 @@
  * API base
  * https://superheroapi.com/api/5712298775500973
  */
+ import Swal from 'sweetalert2';
 
 const imgCard = document.querySelector('#card');
 const nameH = document.querySelector('#name-hero');
@@ -24,4 +25,10 @@ btnSort.addEventListener('click', (event) => {
       imgCard.src = data.images.md;
       nameH.innerHTML = data.name;
     })
+    .catch((error) => Swal.fire({
+      title: 'Hero not found',
+      text: error.message,
+      icon: 'error',
+      confirmButtonText: 'Cool',
+    }));
 });
