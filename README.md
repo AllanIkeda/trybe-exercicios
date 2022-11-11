@@ -68,12 +68,14 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 
 ## Desenvolvimento Front-end:
 
-##### Seção 9:
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
-- [ ] 9.2 - JavaScript Promises
-- [ ] 9.3 - Projeto - Carrinho de Compras
+##### Seção 1:
+- [X] 1.1 - JavaScript Assíncrono e Callbacks
+- [X] 1.2 - JavaScript Promises
+- [X] 1.3 - mini Projeto - __[Casa de Câmbio](https://github.com/AllanIkeda/exercise-casa-de-cambio )__ __[Deploy](https://exercise-casa-de-cambio-ruddy.vercel.app/)__ 
+- [ ] 1.4 - Async, await e testes assíncronos
+- [ ] 1.5 - Projeto - Carrinho de Compras
 
-##### Seção 10:
+##### Seção 2:
 - [ ] 10.1 - Primeiros passos no Jest
 - [ ] 10.2 - Jest - Testes Assíncronos
 - [ ] 10.3 - Jest - Simulando comportamentos
