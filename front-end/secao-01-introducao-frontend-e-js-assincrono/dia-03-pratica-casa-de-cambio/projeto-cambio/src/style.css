@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #282c33;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  /* Estado Inicial */
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
+  background: #282c33;
+  color: #FFFFFF;
+}
+
+#titulo {
+  /* position: absolute; */
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+  color: #FFFFFF;
+  background: -webkit-linear-gradient(left, #FFFFFF 50%, #95EBA8 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#showMoedas {
+  /* position: absolute; */
+  width: 900px;
+  height: 583px;
+  /* left: 306px; */
+  /* top: 290px; */
+  align-self: center;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+}
+
+#divPesquisa {
+  display: flex;
+  /* flex-direction: column; */
+  margin-bottom: 15px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+}
+
+#inputMoeda {
+  width: 171px;
+  height: 48px;
+  left: 306px;
+  top: 185px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#btnPesquisar{
+  width: 171px;
+  height: 48px;
+  left: 491px;
+  top: 185px;
+
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+}
+
