@@ -71,7 +71,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 ##### Seção 1:
 - [X] 1.1 - JavaScript Assíncrono e Callbacks
 - [X] 1.2 - JavaScript Promises
-- [X] 1.3 - mini Projeto - __[Casa de Câmbio](https://github.com/AllanIkeda/exercise-casa-de-cambio )__ __[Deploy](https://exercise-casa-de-cambio-ruddy.vercel.app/)__ 
+- [X] 1.3 - mini Projeto - __[Casa de Câmbio](https://github.com/AllanIkeda/exercise-casa-de-cambio )__ => __[Deploy](https://exercise-casa-de-cambio-ruddy.vercel.app/)__ 
 - [ ] 1.4 - Async, await e testes assíncronos
 - [ ] 1.5 - Projeto - Carrinho de Compras
 
