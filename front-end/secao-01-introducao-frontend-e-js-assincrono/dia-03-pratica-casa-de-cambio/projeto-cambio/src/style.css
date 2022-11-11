@@ -2,81 +2,128 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 body {
-  font-family: sans-serif;
-  background: #282c33;
+  background-color: #363636;
+  color: #ffffff;
 }
 
 main {
-  width: 70%;
-  margin: auto;
   display: flex;
-  font-family: sans-serif;
-  height: 100vh;
-  /* Estado Inicial */
-  position: relative;
+  align-items: flex-start;
   flex-direction: column;
   align-items: center;
-  align-items: flex-start;
-  justify-content: center;
-  background: #282c33;
-  color: #FFFFFF;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: stretch;
+  align-self: flex-start;
+}
+.btn:hover {
+  background-color: #629b61;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  background-color: #96eb95;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  min-width: fit-content;
+  color: #363636;
+}
+
+.resultContainer {
+  display: none;
+  height: 583px;
+  left: 306px;
+  top: 290px;
+  overflow: auto;
+  color: #fcf9f9;
+  background: #35393f;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.resultText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #2a2e32;
+  padding: 8px 10px;
+  margin: 10px 8px;
+  width: 185px;
+  border-radius: 10px;
+}
+.resultText:hover {
+  background-color: #777d83;
+  cursor: pointer;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 25px;
 }
 
 #titulo {
-  /* position: absolute; */
-  font-family: 'Fira Code';
+  justify-self: flex-end;
+  font-family: "Fira Code";
+  margin-top: 50px;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 79px;
-  color: #FFFFFF;
-  background: -webkit-linear-gradient(left, #FFFFFF 50%, #95EBA8 0%);
+  color: #ffffff;
+  background: -webkit-linear-gradient(left, #ffffff 50%, #95eba8 0%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#showMoedas {
-  /* position: absolute; */
-  width: 900px;
-  height: 583px;
-  /* left: 306px; */
-  /* top: 290px; */
-  align-self: center;
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 20px;
+.spanz {
+  align-self: flex-start;
 }
 
-#divPesquisa {
-  display: flex;
-  /* flex-direction: column; */
-  margin-bottom: 15px;
-  font-family: 'Fira Code';
+.tituloMoney {
+  font-family: "Fira Code";
   font-style: normal;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 79px;
+  font-size: 30px;
+  line-height: 31px;
 }
 
-#inputMoeda {
+.bi::before {
+  color: #a88b0b;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+#moeda {
   width: 171px;
   height: 48px;
   left: 306px;
   top: 185px;
+  padding: 5px;
   background: rgba(217, 217, 217, 0.1);
   border-radius: 10px;
-  padding: 5px;
 }
-
-#btnPesquisar{
-  width: 171px;
-  height: 48px;
-  left: 491px;
-  top: 185px;
-
-  background: #96EB95;
-  border: 1px solid #96EB95;
-  border-radius: 10px;
-}
-

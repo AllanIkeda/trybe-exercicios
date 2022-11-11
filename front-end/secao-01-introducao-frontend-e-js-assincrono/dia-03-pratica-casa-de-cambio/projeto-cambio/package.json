@@ -1,17 +1,30 @@
 {
-  "name": "projeto-cambio",
+  "name": "exercise-casa-de-cambio",
   "version": "1.0.0",
-  "description": "",
+  "description": "O projeto da casa de câmbio é uma aplicação que busca a conversão da taxa de uma moeda para diversas outras. O protótipo da aplicação está [nesse link](https://www.figma.com/file/H3gBEiF0F94VESCGx9DD17/Casa-de-C%C3%A2mbio?node-id=0%3A1).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite --open"
+    "dev": "vite --open",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanIkeda/exercise-casa-de-cambio.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllanIkeda/exercise-casa-de-cambio/issues"
+  },
+  "homepage": "https://github.com/AllanIkeda/exercise-casa-de-cambio#readme",
   "dependencies": {
+    "sweetalert2": "^11.6.8",
     "vite": "^3.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.27.0"
   }
 }
