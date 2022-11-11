@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: stretch;
+  align-self: flex-start;
+}
+.btn:hover {
+  background-color: #629b61;
+  cursor: pointer;
+}
+.btn {
+  display: flex;
+  background-color: #96eb95;
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  min-width: fit-content;
+  color: #363636;
+}
+
+.resultContainer {
+  display: none;
+  height: 583px;
+  left: 306px;
+  top: 290px;
+  overflow: auto;
+  color: #fcf9f9;
+  background: #35393f;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.resultText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #2a2e32;
+  padding: 8px 10px;
+  margin: 10px 8px;
+  width: 185px;
+  border-radius: 10px;
+}
+.resultText:hover {
+  background-color: #777d83;
+  cursor: pointer;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 25px;
+}
+
+#titulo {
+  justify-self: flex-end;
+  font-family: "Fira Code";
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 79px;
+  color: #ffffff;
+  background: -webkit-linear-gradient(left, #ffffff 50%, #95eba8 0%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.spanz {
+  align-self: flex-start;
+}
+
+.tituloMoney {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 31px;
+}
+
+.bi::before {
+  color: #a88b0b;
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: -0.125em;
+  align-self: flex-end;
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+
+#moeda {
+  width: 171px;
+  height: 48px;
+  left: 306px;
+  top: 185px;
+  padding: 5px;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 10px;
+}

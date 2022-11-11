@@ -433,6 +433,8 @@ const ships = [
      // measurementUnit: unidade de medida
 ];
 
+
+
 // escreva shipLength abaixo
 
 
