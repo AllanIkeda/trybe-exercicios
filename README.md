@@ -41,8 +41,8 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 5.4 - JavaScript - Web Storage
 - [X] 5.5 - Fundamentos - JavaScript - Projetos
 - [X] 5.5 - Projeto - ___[Pixel Art](https://github.com/tryber/sd-027-a-project-pixels-art/tree/allan-ikeda-project-pixels-art)___  => __[Deploy](https://project-pixels-art-two.vercel.app/)__
-- [X] 5.6 - (Bônus) Projeto - ___[Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/tree/allan-ikeda-todo-list-project)___
-- [X] 5.7 - (Bônus) Projeto - ___[Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/tree/allan-ikeda-meme-generator-project)___
+- [X] 5.6 - (Bônus) Projeto - ___[Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/tree/allan-ikeda-todo-list-project)___ => __[Deploy](https://project-todo-list-sandy.vercel.app/)__
+- [X] 5.7 - (Bônus) Projeto - ___[Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/tree/allan-ikeda-meme-generator-project)___ => __[Deploy](https://a-project-meme-generator.vercel.app/)__
 
 ##### Seção 6:
 - [X] 6.1 - HTML & CSS - Forms
@@ -72,11 +72,6 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 1.1 - JavaScript Assíncrono e Callbacks
 - [X] 1.2 - JavaScript Promises
 - [X] 1.3 - mini Projeto - __[Casa de Câmbio](https://github.com/AllanIkeda/exercise-casa-de-cambio )__ => __[Deploy](https://exercise-casa-de-cambio-ruddy.vercel.app/)__ 
-- [ ] 1.4 - Async, await e testes assíncronos
+- [X] 1.4 - Async, await e testes assíncronos
 - [ ] 1.5 - Projeto - Carrinho de Compras
 
-##### Seção 2:
-- [ ] 10.1 - Primeiros passos no Jest
-- [ ] 10.2 - Jest - Testes Assíncronos
-- [ ] 10.3 - Jest - Simulando comportamentos
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
