@@ -51,7 +51,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 6.3 - CSS Flexbox - Parte 1
 - [X] 6.4 - CSS Flexbox - Parte 2
 - [X] 6.5 - CSS Responsivo - Mobile First
-- [X] 6.6 - Projeto - __[TrybeWarts](https://github.com/tryber/sd-027-a-project-trybewarts/tree/allan-ikeda-trybewarts)___
+- [X] 6.6 - Projeto - __[TrybeWarts](https://github.com/tryber/sd-027-a-project-trybewarts/tree/allan-ikeda-trybewarts)___ => __[Deploy](https://project-pixels-art-two.vercel.app/)__
 
 ##### Seção 7:
 - [X] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
