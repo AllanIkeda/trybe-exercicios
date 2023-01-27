@@ -73,5 +73,37 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [X] 1.2 - JavaScript Promises
 - [X] 1.3 - mini Projeto - __[Casa de Câmbio](https://github.com/AllanIkeda/exercise-casa-de-cambio )__ => __[Deploy](https://exercise-casa-de-cambio-ruddy.vercel.app/)__ 
 - [X] 1.4 - Async, await e testes assíncronos
-- [ ] 1.5 - Projeto - Carrinho de Compras
+- [X] 1.5 - Projeto - Carrinho de Compras
 
+##### Seção 2:
+- [X] 2.1 - 'Hello, world!' no React!
+- [X] 2.2 - Componentes React
+- [X] 2.3 - Projeto - __[Solar System]
+
+##### Seção 3:
+- [X] 3.1 - Componentes com estado e eventos
+- [X] 3.2 - Formuçário no React
+- [X] 3.3 - Projeto - __[Tryunfo]
+
+##### Seção 4:
+- [X] 4.1 - Ciclo de vida de componentes
+- [X] 4.2 - React Router
+- [X] 4.3 - Projeto - __[TrybeTunes]
+
+##### Seção 5:
+- [X] 5.1 - Metodologias Ágeis
+- [X] 5.2 - Projeto - __[Front-end Online Store]
+
+##### Seção 6:
+- [X] 6.1 - RTL Primeiros passos
+- [X] 6.2 - RTL Mocks e inputs
+- [X] 6.3 - RTL Testando React Router
+- [X] 6.4 - Projeto - __[Testes em React]
+
+##### Seção 7:
+- [X] 7.1 - Introdução ao Redux
+- [X] 7.2 - Usando o Redux React
+- [ ] 7.3 - Usando o Redux React - Prática
+- [ ] 7.4 - Usando o Redux React - Actions Assíncronas
+- [ ] 7.5 - Testes em React-Redux
+- [ ] 7.6 - Projeto - __[Trybe Wallet]
